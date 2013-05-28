@@ -1,0 +1,19 @@
+{
+  "name": "bindAll-component",
+  "version": "0.0.1",
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "dependencies" : {
+    "bind"   : "component/bind",
+    "each"   : "component/each",
+    "type"   : "component/type",
+    "object" : "component/object"
+  },
+  "component": {
+    "scripts": {
+      "bindAll/index.js": "index.js"
+    }
+  }
+}
