@@ -1,5 +1,5 @@
 {
-  "name": "bindall",
+  "name": "bindAll",
   "repo": "segmentio/bindAll",
   "description": "Binds all functions to an object",
   "version": "0.0.1",
@@ -14,5 +14,6 @@
   "license": "MIT",
   "scripts": [
     "index.js"
-  ]
+  ],
+  "main": "index.js"
 }
