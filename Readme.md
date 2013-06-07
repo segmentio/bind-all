@@ -1,5 +1,5 @@
 
-# bindAll
+# bind-all
 
   Component for creating singletons from objects
 
