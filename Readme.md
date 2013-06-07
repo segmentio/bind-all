@@ -5,7 +5,7 @@
 
 ## Installation
 
-    $ component install segmentio/bindAll
+    $ component install segmentio/bind-all
 
 ## API
 

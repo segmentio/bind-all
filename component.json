@@ -1,10 +1,12 @@
 {
-  "name": "bindAll",
-  "repo": "segmentio/bindAll",
+  "name": "bind-all",
+  "repo": "segmentio/bind-all",
   "description": "Binds all functions to an object",
   "version": "0.0.1",
   "keywords": [
-    "bindAll"
+    "bind",
+    "bindAll",
+    "bind-all"
   ],
   "dependencies": {
     "component/bind"   : "*",

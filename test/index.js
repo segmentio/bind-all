@@ -1,7 +1,7 @@
 
 var bindAll = require('../');
 
-describe('bindAll', function () {
+describe('bind-all', function () {
 
   it('should bind all', function () {
 

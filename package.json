@@ -1,5 +1,5 @@
 {
-  "name": "bindAll-component",
+  "name": "bind-all-component",
   "version": "0.0.1",
   "devDependencies": {
     "mocha": "*",
@@ -13,7 +13,7 @@
   },
   "component": {
     "scripts": {
-      "bindAll/index.js": "index.js"
+      "bind-all/index.js": "index.js"
     }
   }
 }
