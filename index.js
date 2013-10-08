@@ -1,7 +1,11 @@
 
-var bind   = require('bind')
-  , type   = require('type');
-
+try {
+  var bind = require('bind');
+  var type = require('type');
+} catch (e) {
+  var bind = require('bind-component');
+  var type = require('type-component');
+}
 
 module.exports = function (obj) {
   for (var key in obj) {

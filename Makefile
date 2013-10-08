@@ -1,14 +1,17 @@
 
-build: components index.js
+build: node_modules components index.js
 	@component build --dev
 
 components: component.json
 	@component install --dev
 
 clean:
-	rm -fr build components template.js
+	@rm -fr build components node_modules
 
-test:
+node_modules: package.json
+	@npm install
+
+test: build
 	@./node_modules/.bin/mocha \
 		--reporter spec \
 		--require should
